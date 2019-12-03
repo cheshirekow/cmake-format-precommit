@@ -4,5 +4,5 @@
   entry: cmake-format
   args: [--in-place]
   language: python
-  additional_dependencies: [cmake-format==0.6.0]
+  additional_dependencies: [cmake-format==0.6.2]
   types: [cmake]

@@ -19,7 +19,7 @@ the following to your ``.pre-commit-config.yaml`` file:
 
    repos:
      - repo: https://github.com/cheshirekow/cmake-format-precommit
-       rev: v0.6.0
+       rev: v0.6.2
        hooks:
        - id: cmake-format
 
