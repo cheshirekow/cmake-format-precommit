@@ -4,5 +4,13 @@
   entry: cmake-format
   args: [--in-place]
   language: python
-  additional_dependencies: [cmake-format==0.6.2]
+  additional_dependencies: [cmake-format==0.6.3]
+  types: [cmake]
+
+- id: cmake-lint
+  name: cmake-lint
+  description: cmake-lint will check your listfiles for style violations, common mistakes, and anti-patterns.
+  entry: cmake-lint
+  language: python
+  additional_dependencies: [cmake-format==0.6.3]
   types: [cmake]

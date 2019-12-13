@@ -12,16 +12,17 @@ project using `pre-commit`__.
 Usage
 -----
 
-To add ``cmake-format`` to your pre-commit configuration, add something like
-the following to your ``.pre-commit-config.yaml`` file:
+To add ``cmake-format`` and ``cmake-lint`` to your pre-commit configuration,
+add something like the following to your ``.pre-commit-config.yaml`` file:
 
 .. code:: yaml
 
    repos:
      - repo: https://github.com/cheshirekow/cmake-format-precommit
-       rev: v0.6.2
+       rev: v0.6.3
        hooks:
        - id: cmake-format
+       - id: cmake-lint
 
 
 ----------------
