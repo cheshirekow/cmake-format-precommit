@@ -19,7 +19,7 @@ add something like the following to your ``.pre-commit-config.yaml`` file:
 
    repos:
      - repo: https://github.com/cheshirekow/cmake-format-precommit
-       rev: v0.6.6
+       rev: v0.6.7
        hooks:
        - id: cmake-format
        - id: cmake-lint
