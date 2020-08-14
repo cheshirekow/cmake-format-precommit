@@ -1,6 +1,6 @@
 from setuptools import setup
 setup(
-    name="cmake-format-precommit-dummy",
+    name="cmakelang-precommit-dummy",
     version="0.0.0",
-    install_requires=["cmake-format==0.6.11"]
+    install_requires=["cmakelang==0.6.12.dev0"]
 )
